@@ -1,13 +1,9 @@
-# Kayıp Fonksiyonları
+# Loss Functions
 
-Bu alıştırma, kayıp fonksiyonlarının Doğrusal Regresyon modellerinin performansı üzerindeki etkilerini araştırmaktan oluşur. Araştırma şu görev aracılığıyla yapılır:
+This exercise consists of investigating the effects of loss functions on the performance of Linear Regression models. The investigation is conducted through the following task:
 
-🎯 Tasarımına göre bir seranın içindeki ortalama sıcaklığı tahmin etmelisiniz. Sıcaklık tahminleriniz, her bir bitki için iklimsel ihtiyaçlarına göre uygun sera tasarımını seçmenize yardımcı olacaktır.
+🎯 We must predict the average temperature inside a greenhouse according to its design. Our temperature predictions will help us choose the appropriate greenhouse design for each plant based on its climatic needs.
 
-🌿 Bitkilerin küçük sıcaklık değişimlerini kaldırabildiğini, ancak sıcaklık değişimleri arttıkça katlanarak daha duyarlı hale geldiğini biliyorsunuz.
+🌿 We know that plants can tolerate small temperature changes, but become exponentially more sensitive as temperature changes increase.
 
-❓ Modelinizi hangi kayıp fonksiyonu üzerinde eğitirsiniz?
-
-Alıştırmaya başlamak için `jupyter notebook`'ta `Loss-Functions.ipynb`'yi açın ve talimatları takip edin.
-
-🚀 Sıra sizde!
+❓ Which loss function would we train your model on?
